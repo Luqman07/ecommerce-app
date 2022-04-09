@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    // font-size: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+$darkmode-hex: #181818;
+.flex{
+    display: flex;
+}
+
+@import '_navbar';
+@import '_carousel';
+@import '_collection';
+@import '_trend';
